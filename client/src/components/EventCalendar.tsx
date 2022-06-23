@@ -41,7 +41,7 @@ const EventCalendar = () => {
 
     return (
       currEvents.map((event, i) =>
-        <div key={i} style={{border: "1px solid black"}} onClick={() => openEvent(event)}>
+        <div key={i} className="event-in-calendar" onClick={() => openEvent(event)}>
           {event.title}
           <div style={{color: "gray"}}>{event.description}</div>
         </div>)

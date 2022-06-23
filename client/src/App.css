@@ -1,1 +1,21 @@
 @import "~antd/dist/antd.css";
+
+
+.ant-picker-calendar-date-content::-webkit-scrollbar {
+    width: 5px;
+}
+
+.ant-picker-calendar-date-content::-webkit-scrollbar-thumb {
+    background-color: #1890ff;
+}
+
+.event-in-calendar {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 3px;
+    margin: 5px 0;
+    transition: 0.25s;
+}
+
+.event-in-calendar:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+}
